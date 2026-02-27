@@ -1,9 +1,14 @@
-import Image from "next/image";
 
-export default function Home() {
+import Image from "next/image";
+import styles from "./page.module.css";
+
+function Home() {
   return (
     <div>
-      <h1>React com next JS</h1>
+      <h1>React com Next JS</h1>
     </div>
   );
 }
+
+
+export default Home;
