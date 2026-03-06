@@ -13,8 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Aula introdução next js",
-  description: "React com next js",
-};
+  description: "React com next js",};
 
 export default function RootLayout({ children }) {
   return (
