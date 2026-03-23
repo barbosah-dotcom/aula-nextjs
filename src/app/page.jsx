@@ -1,19 +1,24 @@
-import image from "next/image"
+import Image from "next/image";
+
+import Link from "next/link";
 import styles from "./page.module.css";
 
-function home () {
-    return(
-        <div classname={styles.containerHome}>
-        <div className={styles.containerListas}>
-            <h1>Exemplos</h1>
-            </div>
-            <div>
-            <div className={styles.containerListas}></div>
-            <h1>atividades </h1>
-        
-         </div>
-        </div>
-    );
+function Home() {
+  return (
+    <div className={styles.containerHome}>
+   <div className={styles.containerlistas}>
+    <h1>Exemplos</h1>
+    <Link href="/exemplos/ex-01">Exemplo 1</Link>
+    <Link href="/exemplos/ex-02">Exemplo 2</Link>
+     <Link href="/exemplos/ex-03">Exemplo 3</Link>
+   </div>
+   <div className={styles.containerlistas}>
+    <h1>atividades</h1>
+     <Link href="/atividades/atv-1">atividade 1</Link>
+     <Link href="/atividades/atv-2">atividade 2</Link>
+   </div>
+   </div>
+  );
 }
 
-export default home;
+export default Home;
