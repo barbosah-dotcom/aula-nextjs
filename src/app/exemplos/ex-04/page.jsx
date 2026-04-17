@@ -8,7 +8,7 @@ import styles from './page.module.css';
 
 function Exemplo04() {
     // O hook useState gerencia o valor do contador
-    const [contador, setContador] = useState(67);
+    const [contador, setContador] = useState(0);
 
     const incrementar = () => setContador(contador + 1);
     const decrementar = () => setContador(contador - 1);
