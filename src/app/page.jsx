@@ -19,7 +19,7 @@ function Home() {
      <Link href="/atividades/atv-1">atividade 1</Link>
      <Link href="/atividades/atv-2">atividade 2</Link>
      <Link href="/atividades/atv-3">atividade 3</Link>
-     <Link href="/atividades/atv-4">atividade 4</Link>
+     <Link href="/atividades/atv-04">atividade 4</Link>
    </div>
    </div>
   );
