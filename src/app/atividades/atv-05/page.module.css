@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 5px;
+}
+
+.botao {
+  padding: 3px, 3px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.lista {
+  padding: 0;
+}
+
+.linha {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botaoExcluir {
+  padding: 3px 6px;
+  cursor: pointer;
+  background-color: crimson;
+}
+
+.botaoEditar {
+  padding: 3px 9px;
+  cursor: pointer;
+  background-color: blue;
+}
